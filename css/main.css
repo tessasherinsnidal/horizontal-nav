@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  background-color: #dbd6d0;
+}
+
+header {
+  background-color: #79766f;
+  border: 2px solid #5a5750;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Bevan", cursive;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em 1em 1em 1em;
+  display: inline-block;
+  text-align: center;
+  background-color: #793439;
+  font-family: sans-serif;
+}
+
+li:hover {
+  background-color: #ff332a;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
